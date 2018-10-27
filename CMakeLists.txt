@@ -50,10 +50,6 @@ function(mathfu_configure_flags target)
     set(enable_simd ${mathfu_enable_simd})
   endif()
 
-  # Add required includes to the target.
-  target_include_directories(${target}
-    PRIVATE ${mathfu_dir}/include ${dependencies_vectorial_dir}/include)
-
   # Parse optional arguments.
   set(additional_args ${ARGN})
   list(LENGTH additional_args num_additional_args)

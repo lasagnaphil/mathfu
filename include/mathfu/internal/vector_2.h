@@ -152,6 +152,9 @@ struct VectorPacked<T, 2> {
   /// @param vector Vector to create the VectorPacked from.
   explicit VectorPacked(const Vector<T, 2>& vector) { vector.Pack(this); }
 
+  /// Create a VectorPacked from elements.
+  explicit VectorPacked(const T& t1, const T& t2) { x = t1; y = t2; }
+
   /// Copy a Vector to a VectorPacked.
   ///
   /// Both VectorPacked and Vector must have the same number of dimensions.

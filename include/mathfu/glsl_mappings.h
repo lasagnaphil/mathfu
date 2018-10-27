@@ -51,12 +51,26 @@ typedef Vector<int, 3> vec3i;
 /// 4-dimensional <code>int</code> Vector.
 typedef Vector<int, 4> vec4i;
 
+/// 2-dimensional <code>double</code> Vector.
+typedef Vector<double, 2> vec2d;
+/// 3-dimensional <code>double</code> Vector.
+typedef Vector<double, 3> vec3d;
+/// 4-dimensional <code>double</code> Vector.
+typedef Vector<double, 4> vec4d;
+
 /// 2x2 <code>float</code> Matrix.
 typedef Matrix<float, 2, 2> mat2;
 /// 3x3 <code>float</code> Matrix.
 typedef Matrix<float, 3, 3> mat3;
 /// 3x3 <code>float</code> Matrix.
 typedef Matrix<float, 4, 4> mat4;
+
+/// 2x2 <code>double</code> Matrix.
+typedef Matrix<double, 2, 2> mat2d;
+/// 3x3 <code>double</code> Matrix.
+typedef Matrix<double, 3, 3> mat3d;
+/// 3x3 <code>double</code> Matrix.
+typedef Matrix<double, 4, 4> mat4d;
 
 /// 2-dimensional <code>float</code> packed Vector (VectorPacked).
 typedef VectorPacked<float, 2> vec2_packed;
@@ -71,6 +85,34 @@ typedef VectorPacked<int, 2> vec2i_packed;
 typedef VectorPacked<int, 3> vec3i_packed;
 /// 4-dimensional <code>int</code> packed Vector (VectorPacked).
 typedef VectorPacked<int, 4> vec4i_packed;
+
+/// 2-dimensional <code>int</code> packed Vector (VectorPacked).
+typedef VectorPacked<double, 2> vec2d_packed;
+/// 3-dimensional <code>int</code> packed Vector (VectorPacked).
+typedef VectorPacked<double, 3> vec3d_packed;
+/// 4-dimensional <code>int</code> packed Vector (VectorPacked).
+typedef VectorPacked<double, 4> vec4d_packed;
+
+/// 2-dimensional <code>float</code> packed Vector (VectorPacked).
+typedef VectorPacked<float, 2> vec2p;
+/// 3-dimensional <code>float</code> packed Vector (VectorPacked).
+typedef VectorPacked<float, 3> vec3p;
+/// 4-dimensional <code>float</code> packed Vector (VectorPacked).
+typedef VectorPacked<float, 4> vec4p;
+
+/// 2-dimensional <code>int</code> packed Vector (VectorPacked).
+typedef VectorPacked<int, 2> vec2ip;
+/// 3-dimensional <code>int</code> packed Vector (VectorPacked).
+typedef VectorPacked<int, 3> vec3ip;
+/// 4-dimensional <code>int</code> packed Vector (VectorPacked).
+typedef VectorPacked<int, 4> vec4ip;
+
+/// 2-dimensional <code>int</code> packed Vector (VectorPacked).
+typedef VectorPacked<double, 2> vec2dp;
+/// 3-dimensional <code>int</code> packed Vector (VectorPacked).
+typedef VectorPacked<double, 3> vec3dp;
+/// 4-dimensional <code>int</code> packed Vector (VectorPacked).
+typedef VectorPacked<double, 4> vec4dp;
 
 /// Float-based quaternion.  Note that this is not technically
 /// a GLES type, but is included for convenience.
