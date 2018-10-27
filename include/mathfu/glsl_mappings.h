@@ -38,11 +38,11 @@ namespace mathfu {
 /// @{
 
 /// 2-dimensional <code>float</code> Vector.
-typedef Vector<float, 2> vec2;
+typedef Vector<float, 2> vec2f;
 /// 3-dimensional <code>float</code> Vector.
-typedef Vector<float, 3> vec3;
+typedef Vector<float, 3> vec3f;
 /// 4-dimensional <code>float</code> Vector.
-typedef Vector<float, 4> vec4;
+typedef Vector<float, 4> vec4f;
 
 /// 2-dimensional <code>int</code> Vector.
 typedef Vector<int, 2> vec2i;
@@ -59,11 +59,11 @@ typedef Vector<double, 3> vec3d;
 typedef Vector<double, 4> vec4d;
 
 /// 2x2 <code>float</code> Matrix.
-typedef Matrix<float, 2, 2> mat2;
+typedef Matrix<float, 2, 2> mat2f;
 /// 3x3 <code>float</code> Matrix.
-typedef Matrix<float, 3, 3> mat3;
+typedef Matrix<float, 3, 3> mat3f;
 /// 3x3 <code>float</code> Matrix.
-typedef Matrix<float, 4, 4> mat4;
+typedef Matrix<float, 4, 4> mat4f;
 
 /// 2x2 <code>double</code> Matrix.
 typedef Matrix<double, 2, 2> mat2d;
@@ -73,32 +73,11 @@ typedef Matrix<double, 3, 3> mat3d;
 typedef Matrix<double, 4, 4> mat4d;
 
 /// 2-dimensional <code>float</code> packed Vector (VectorPacked).
-typedef VectorPacked<float, 2> vec2_packed;
+typedef VectorPacked<float, 2> vec2fp;
 /// 3-dimensional <code>float</code> packed Vector (VectorPacked).
-typedef VectorPacked<float, 3> vec3_packed;
+typedef VectorPacked<float, 3> vec3fp;
 /// 4-dimensional <code>float</code> packed Vector (VectorPacked).
-typedef VectorPacked<float, 4> vec4_packed;
-
-/// 2-dimensional <code>int</code> packed Vector (VectorPacked).
-typedef VectorPacked<int, 2> vec2i_packed;
-/// 3-dimensional <code>int</code> packed Vector (VectorPacked).
-typedef VectorPacked<int, 3> vec3i_packed;
-/// 4-dimensional <code>int</code> packed Vector (VectorPacked).
-typedef VectorPacked<int, 4> vec4i_packed;
-
-/// 2-dimensional <code>int</code> packed Vector (VectorPacked).
-typedef VectorPacked<double, 2> vec2d_packed;
-/// 3-dimensional <code>int</code> packed Vector (VectorPacked).
-typedef VectorPacked<double, 3> vec3d_packed;
-/// 4-dimensional <code>int</code> packed Vector (VectorPacked).
-typedef VectorPacked<double, 4> vec4d_packed;
-
-/// 2-dimensional <code>float</code> packed Vector (VectorPacked).
-typedef VectorPacked<float, 2> vec2p;
-/// 3-dimensional <code>float</code> packed Vector (VectorPacked).
-typedef VectorPacked<float, 3> vec3p;
-/// 4-dimensional <code>float</code> packed Vector (VectorPacked).
-typedef VectorPacked<float, 4> vec4p;
+typedef VectorPacked<float, 4> vec4fp;
 
 /// 2-dimensional <code>int</code> packed Vector (VectorPacked).
 typedef VectorPacked<int, 2> vec2ip;
